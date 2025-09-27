@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+body {
+    background-color: pink;
+    font-family: 'verdana','Hiragino Sans','meiryo',sans-serif;
+}
+h1{
+    font-size: 18px;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+    padding: 6px 0;
+    margin: 20px auto;
+    width: 300px;
+    text-align: center;
+}
+
+p,ul {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+img {
+    border-radius: 50%;
+    width: 150px;        /* 固定幅で小さく表示 */
+    height: 150px;       /* 高さも揃える */
+    object-fit: cover;   /* 中心を保ったままトリミング */
+    display: block;
+    margin: 20px auto;   /* 左右中央寄せ */
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* プロフィール感UP */
+}
+
+
+a {
+ background-color: #ff9a9e;
+ display: block;
+ padding: 20px 0;
+ border-radius: 4px;
+ color: #ffffff;
+ font-weight: bold;
+
+}
+
+ul {
+ width: 300px;
+ margin: 0 auto;
+}
+
+li {
+    margin-bottom: 20px;
+
+}
